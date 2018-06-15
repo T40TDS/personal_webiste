@@ -3,10 +3,18 @@
   src: url('fonts/CMUSerif-Roman.ttf') format('truetype'), url('fonts/CMUSerif-Roman.woff') format('woff');
 }
 .name  {margin:auto; top:40%; transform: translateY(-50%); position:relative; padding-left:10em;float:left}
-.navbar {margin:auto;float:left; font-size: 3em; top:45%; transform: translateY(-50%); position: relative; padding-left: 2em}
-body {font-family: Computer-Modern; background-color:#EDE8D8}
+.navbar {margin:auto;float:left; font-size: 3em; top:45%; transform: translateY(-50%); position: relative; padding-left: 2em;
+}
+body {
+	font-family: Computer-Modern; 
+	background-color:#034f84;
+	color: white;
+}
 .container {margin:auto;width:100%; position: relative}
+.descr {
+	font-size:2em;
+}
 h1 {font-size: 5em}
-ul {list-style-type: none}
-a:hover{text-decoration:none; border-bottom:1px solid black;}
+ul {list-style-type: none;}
+a:hover{text-decoration:none; border-bottom:1px solid white;}
 a {text-decoration: none; color:inherit;}
